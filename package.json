@@ -1,0 +1,33 @@
+{
+  "name": "@telemetry-js/processor-summarize",
+  "version": "0.2.1",
+  "description": "Locally summarize metrics within a time window",
+  "license": "MIT",
+  "author": "Vincent Weevers",
+  "scripts": {
+    "test": "standard && hallmark && node test"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "@telemetry-js/metric": "^0.1.2",
+    "ms": "^2.1.2"
+  },
+  "devDependencies": {
+    "hallmark": "^3.1.0",
+    "standard": "^14.3.4",
+    "tape": "^4.9.1"
+  },
+  "repository": "telemetry-js/processor-summarize",
+  "bugs": "https://github.com/telemetry-js/processor-summarize/issues",
+  "homepage": "https://github.com/telemetry-js/processor-summarize",
+  "keywords": [
+    "metrics",
+    "measurements",
+    "telemetry"
+  ],
+  "engines": {
+    "node": ">=6"
+  }
+}
