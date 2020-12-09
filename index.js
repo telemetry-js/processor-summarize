@@ -132,7 +132,7 @@ class SummaryProcessor extends EventEmitter {
   }
 }
 
-// TODO (later): move to a package (outside of telemetry repo)
+// TODO: use bruce-millis instead
 function msOption (value, name) {
   if (typeof value === 'number') {
     if (Number.isFinite(value)) {
